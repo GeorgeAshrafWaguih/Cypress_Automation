@@ -56,11 +56,11 @@ describe ("Assertions demo", ()=>{
             
             // BDD
             expect(actName).to.equal(expName)
-            expect(actName).to.not.equal(expName)
+            //expect(actName).to.not.equal(expName)
 
             // TDD
             assert.equal(actName,expName)
-            assert.notEqual(actName,expName)
+            //assert.notEqual(actName,expName)
         })
     })
 })
