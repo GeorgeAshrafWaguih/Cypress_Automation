@@ -4,4 +4,5 @@ Framework Covering:
 - Xpath Selectors
 - Implicit Assertions (should,and)
 - Explicit Assertions (expect-BDD, assert-TDD)
-- Hanling of Radion buttons and Checkboxes
+- Handling of Radio buttons and Checkboxes
+- Handling different types of Dropdowns
