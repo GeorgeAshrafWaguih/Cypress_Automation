@@ -23,7 +23,7 @@ describe ('Tabs',()=>{
 
             let url = e.prop('href')
             cy.visit(url)
-        })
+        })                                  // only works if href has the same domain of the main url
 
         cy.url().should('include','https://the-internet.herokuapp.com/windows')
 
