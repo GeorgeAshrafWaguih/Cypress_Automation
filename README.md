@@ -6,3 +6,4 @@ Framework Covering:
 - Explicit Assertions (expect-BDD, assert-TDD)
 - Handling of Radio buttons and Checkboxes
 - Handling different types of Dropdowns
+- Handling Alerts types
