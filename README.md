@@ -15,4 +15,6 @@ Cypress Framework Covering:
     - Handling different types of Dropdowns
     - Handling Alerts types
     - Handling Child Tabs
-    - Handlind iFrames
+    - Handling iFrames
+    - Handling Tables
+    - Handling Mouse Events
