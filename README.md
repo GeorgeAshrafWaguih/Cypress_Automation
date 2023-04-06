@@ -18,3 +18,4 @@ Cypress Framework Covering:
     - Handling iFrames
     - Handling Tables
     - Handling Mouse Events
+    - Handling File upload
