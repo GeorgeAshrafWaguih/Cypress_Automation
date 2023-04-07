@@ -21,3 +21,7 @@ Cypress Framework Covering:
     - Handling File upload
 
 - Hooks and Tags
+
+- Fixtures 
+
+- Data Driven Testing
