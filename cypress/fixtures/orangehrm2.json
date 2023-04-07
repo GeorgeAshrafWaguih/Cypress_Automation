@@ -2,7 +2,7 @@
     {
         "username":"Admin",
         "password":"admin123",
-        "expected":"Dashboard"
+        "expected":"Cockpit"
     },
     {
         "username":"xyz",
