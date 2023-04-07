@@ -19,3 +19,5 @@ Cypress Framework Covering:
     - Handling Tables
     - Handling Mouse Events
     - Handling File upload
+
+- Hooks and Tags
