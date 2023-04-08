@@ -29,3 +29,5 @@ Cypress Framework Covering:
 - Custom Commands
 
 - Browser Navigation
+
+-- Capture Screenshot/Videos
