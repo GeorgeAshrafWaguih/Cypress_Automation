@@ -31,3 +31,5 @@ Cypress Framework Covering:
 - Browser Navigation
 
 - Capture Screenshot/Videos
+
+- Generate HTML reports
