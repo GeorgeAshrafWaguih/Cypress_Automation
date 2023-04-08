@@ -9,7 +9,8 @@
   "author": "Geo",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.8.1"
+    "cypress": "^12.8.1",
+    "cypress-mochawesome-reporter": "^3.3.0"
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.3",
