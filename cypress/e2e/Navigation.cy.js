@@ -1,0 +1,7 @@
+describe('mysuite', ()=>{
+
+    it('NavigationTest', ()=>{
+
+        
+    })
+})

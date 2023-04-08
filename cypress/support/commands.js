@@ -28,9 +28,43 @@
 
 /// <reference types="cypress-xpath"/>
 
+// const { contains } = require("cypress/types/jquery")
+
 Cypress.Commands.add('getIframe', (iframe)=>{
     return cy.get(iframe)
         .its('0.contentDocument.body')
         .should('be.visible')
         .then(cy.wrap)
 })
+
+
+// Custom command for clicking on link using label
+Cypress.Commands.add('clickLink', (label)=>{
+
+    cy.get('a').contains(label).click()
+})
+
+// // overwright contains to accept upper/lower case letters 
+// Cypress.Commands.overwriteQuery('contains', (originalFn, subject, filter, text, options = {})=>{
+    
+//     // determine if filter argument was passed
+//     if(typeof text === 'object'){
+//         options = text
+//         text = filter
+//         filter = undefined
+//     }
+
+//     options.matchCase = false
+
+//     return originalFn(subject, filter, text, options)
+// })
+
+
+// custom command for login
+Cypress.Commands.add("loginapp",(email,password)=>{
+
+    cy.get('#Email').type(email)
+    cy.get('#Password').type(password)
+    cy.get("button[class='button-1 login-button']").click()
+})
+

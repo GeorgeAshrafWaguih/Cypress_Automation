@@ -25,3 +25,7 @@ Cypress Framework Covering:
 - Fixtures 
 
 - Data Driven Testing
+
+- Custom Commands
+
+- Browser Navigation
