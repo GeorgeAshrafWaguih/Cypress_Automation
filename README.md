@@ -30,4 +30,4 @@ Cypress Framework Covering:
 
 - Browser Navigation
 
--- Capture Screenshot/Videos
+- Capture Screenshot/Videos
