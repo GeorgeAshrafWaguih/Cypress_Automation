@@ -33,3 +33,5 @@ Cypress Framework Covering:
 - Capture Screenshot/Videos
 
 - Generate HTML reports
+
+- POM
